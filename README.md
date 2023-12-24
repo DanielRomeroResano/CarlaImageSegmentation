@@ -27,5 +27,8 @@ There are multiple files used in this project that must be run in a certain orde
     - Pandas, numpy, sklearn, and matplotlib are needed
       
   - Model Evaluation (TestModels.ipynb):
-    - The models trained are stored into .h5 files now this file loads them and test them against a real or simulated dataset
+    - The models trained are stored into .h5 files now this file loads them and test them against a real or simulated dataset.
     - This last file was created before all the models were trained and checked into the TrainAll jupyter but it can still be usefull for testing the models without new training
+
+
+Note: .h5 files & dataset cannot be uploaded into gitlab due to their file size, therefore you´ll need to run the whole code for testing things out.
