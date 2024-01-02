@@ -28,7 +28,8 @@ There are multiple files used in this project that must be run in a certain orde
       
   - Model Evaluation (TestModels.ipynb):
     - The models trained are stored into .h5 files now this file loads them and test them against a real or simulated dataset.
-    - This last file was created before all the models were trained and checked into the TrainAll jupyter but it can still be usefull for testing the models without new training
+      
+  -Previous Train Unets folder shows the results of running the trainAll jupyter for each of the models (please note that Unet is the example in the main folder)
 
 
 Note: .h5 files & dataset cannot be uploaded into gitlab due to their file size, therefore you´ll need to run the whole code for testing things out.
