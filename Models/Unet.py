@@ -41,7 +41,7 @@ def decoderBlock(inputs, skip, filters):
     return X
 
 
-def unet(inputShape,labels, filters, ):
+def unet(inputShape,labels, filters):
     
     inputs = Input(inputShape)
         
