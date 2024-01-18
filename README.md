@@ -27,7 +27,8 @@ There are multiple files used in this project that must be run in a certain orde
     - Pandas, numpy, sklearn, and matplotlib are needed
       
   - Model Evaluation (TestModels.ipynb):
-    - The models trained are stored into .h5 files now this file loads them and test them against a real or simulated dataset.
+    - The models trained are stored into .h5 files now this file loads them and test them against a simulated dataset (newly generated and unseen during training/testing/validation) 
+    - Then the file generates a video prediciton for all the data passed sequentially so that it can be saved in order.
       
   -Previous Train Unets folder shows the results of running the trainAll jupyter for each of the models (please note that Unet is the example in the main folder)
 
